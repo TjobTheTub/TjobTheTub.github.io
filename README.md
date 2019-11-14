@@ -5,4 +5,4 @@
 - [Ma Stickperson](Forside/Taendstikmand)
 - [Anoda Stikperson](Forside/NyStikmand)
 - [Fusiklushastihit](Forside/Fysikdims)
-- [Chick To Da Spin](forside/Spinningchickon)
+- [Chick To Da Spin](Forside/Spinningchickon)
