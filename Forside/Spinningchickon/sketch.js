@@ -9,10 +9,10 @@ function draw() {
   let ww =windowWidth
   let wh = windowHeight
   createCanvas(ww, wh);
-  translate(ww/2,wh/2)
+  translate(mouseX,mouseY)
   rotate(h * fart)
-  imageMode(CENTER)
-  image(img,0,0);
+  imageMode(CORNERS)
+  image(img,-720/2,-480/2,720/2,480/2);
   
   
   if (keyIsDown(LEFT_ARROW)){
@@ -30,18 +30,17 @@ function draw() {
   
   fart = fart*2;
 
+ }
+  else if (keyCode === DOWN_ARROW){
+    fart = 0.01;
+  }
 }
 
-  }
+  
     
-// }
-//   else if (keyCode === RIGHT_ARROW){
-//     h --;
-//   }
-//   else if (keyCode === DOWN_ARROW){
-//     h = 1;
-//   }
-// }
+
+  
+
 
 
   function preload() {
