@@ -15,11 +15,11 @@ function draw() {
   image(img,-720/2,-480/2,720/2,480/2);
   
   
-  if (keyIsDown(LEFT_ARROW)){
+  if (keyIsDown(RIGHT_ARROW)){
     h ++;
 
   }
-  if (keyIsDown(RIGHT_ARROW)){
+  if (keyIsDown(LEFT_ARROW)){
     h --;
   }
 }
