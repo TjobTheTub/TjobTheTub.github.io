@@ -12,9 +12,8 @@ function draw() {
   translate(mouseX,mouseY)
   rotate(h * fart)
   imageMode(CORNERS)
-  image(img,-720/2,-480/2,720/2,480/2);
-  
-  
+  image(img,-720/2,-480/2,720/2,480/2)
+ 
   if (keyIsDown(RIGHT_ARROW)){
     h ++;
 
@@ -28,15 +27,17 @@ function draw() {
   function keyPressed() {
  if (keyCode === UP_ARROW){
   
-  fart = fart*2;
+  fart = fart+0.01;
 
  }
   else if (keyCode === DOWN_ARROW){
-    fart = 0.01;
+    fart = fart - 0.01;
   }
 }
 
+   
   
+
     
 
   
