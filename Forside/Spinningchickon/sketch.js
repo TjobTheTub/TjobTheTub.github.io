@@ -38,18 +38,18 @@ text('Spin left', ww/100, wh-wh/100);
 imageMode(CORNER)
   image(imgdown,ww/100+110,wh-wh/100-imgs-20,imgs,imgs);
   textSize(20);
-text('Slow down', ww/100+90, 800);
+text('Slow down', ww/100+90, wh-wh/100);
 
 
 imageMode(CORNER)
   image(imgright,ww/100+220,wh-wh/100-imgs-20,imgs,imgs);
   textSize(20);
-text('Spin right', ww/100+200, 800);
+text('Spin right', ww/100+200, wh-wh/100);
   
 imageMode(CORNER)
   image(imgup,ww/100+110,wh-wh/100-imgs-110,imgs,imgs);
   textSize(20);
-text('speed up', ww/100+90, 720);
+text('Speed up', ww/100+90, wh-wh/100-80);
   translate(mouseX, mouseY)
   rotate(h * fart)
 
